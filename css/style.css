@@ -1,21 +1,33 @@
-.title {
+.body {
+    max-width: 1500px
+/*画面の最大幅を指定*/
+}
+
+.ht {
     color: darkblue;
-    text-align: top;
+    font-size: 25px;
     float: left;
 }
 
 ul {
     color: darkblue;
+    text-align: right;
     float: right;
 }
 
-.header {
-    font-weight: bolder
+.my {
+    font-weight: bolder;
 }
 
 li {
     display: inline;
     padding: 0 10px;
+}
+.mt {
+    text-align: left;
+    font-size: 50px;
+    margin-top: -50px;
+    font-weight: lighter;
 }
 
 .mk {
@@ -23,22 +35,17 @@ li {
     width: 55%;
     height: 80%;
     /* height: 100%；でもどうように動作します*/
-    top: 210px;
-    left: 380px;
+    top: 100px;
+    left: 320px;
     z-index: 30;
-}
-
-.firstview {
-    font-size: 60px;
-    font-weight: 100;
-    text-align: left;
 }
 
 .blue-box {
     position: relative;
-    width: 955px;
-    height: 200px;
+    width: 815px;
+    height: 165px;
     background-color: darkblue;
-    top: -55px;
-    left: 0px;
+    top: -50px;
+    left: -30px;
+    margin-right: auto;
 }
