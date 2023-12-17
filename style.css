@@ -1,0 +1,51 @@
+.body {
+    max-width: 1500px
+/*画面の最大幅を指定*/
+}
+
+.ht {
+    color: darkblue;
+    font-size: 25px;
+    float: left;
+}
+
+ul {
+    color: darkblue;
+    text-align: right;
+    float: right;
+}
+
+.my {
+    font-weight: bolder;
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+}
+.mt {
+    text-align: left;
+    font-size: 50px;
+    margin-top: -50px;
+    font-weight: lighter;
+}
+
+.mk {
+    position: relative;
+    width: 55%;
+    height: 80%;
+    /* height: 100%；でもどうように動作します*/
+    top: 100px;
+    left: 320px;
+    z-index: 30;
+}
+
+.blue-box {
+    position: relative;
+    width: 815px;
+    height: 165px;
+    background-color: darkblue;
+    top: -50px;
+    left: -30px;
+    margin-right: auto;
+}
