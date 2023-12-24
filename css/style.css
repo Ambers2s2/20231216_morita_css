@@ -1,6 +1,6 @@
 .ht {
     color: darkblue;
-    font-size: 25px;
+    font-size: 170%;
     float: left;
 }
 
@@ -27,17 +27,17 @@ li {
 
 .mk {
     position: relative;
-    width: 45%;
-    height: -100%;
+    width: 600px;
+    height: -10px;
     /* height: 100%；でもどうように動作します*/
     top: 125px;
-    left: 600px;
-    z-index: 30;
+    left: 460px;
+    z-index: 30
 }
 
 .blue-box {
     position: relative;
-    width: 1110px;
+    width: 975px;
     height: 165px;
     background-color: darkblue;
     top: -75px;
