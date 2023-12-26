@@ -1,46 +1,50 @@
 .ht {
     color: darkblue;
     font-size: 170%;
-    float: left;
 }
 
 ul {
     color: darkblue;
     text-align: right;
-    float: right;
 }
 
 .my {
     font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
 }
 
 li {
     display: inline;
     padding: 0 10px;
 }
+
+main {
+    position: relative;
+}
+
 .mt {
-    text-align: left;
-    font-size: 75px;
-    margin-top: -55px;
+    margin-top: 280px;
+    font-size: 70px;
     font-weight: lighter;
 }
 
 .mk {
-    position: relative;
-    width: 600px;
+    position: absolute;
+    width: 580px;
     height: -10px;
     /* height: 100%；でもどうように動作します*/
-    top: 125px;
-    left: 460px;
-    z-index: 30
+    top: -230px;
+    left: 710px;
+    z-index: 30;
+    margin-right: 0;
 }
 
 .blue-box {
-    position: relative;
-    width: 975px;
+    position: absolute;
+    width: 1000px;
     height: 165px;
     background-color: darkblue;
-    top: -75px;
-    left: -30px;
-    margin-right: auto;
+    top: 80px;
+    left: -10px;
 }
