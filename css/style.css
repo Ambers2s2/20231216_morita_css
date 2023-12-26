@@ -1,11 +1,12 @@
 .ht {
     color: darkblue;
-    font-size: 170%;
+    font-size: 150%;
 }
 
 ul {
     color: darkblue;
     text-align: right;
+    font-size: 150%;
 }
 
 .my {
@@ -24,27 +25,28 @@ main {
 }
 
 .mt {
-    margin-top: 280px;
-    font-size: 70px;
+    margin-top: 510px;
+    font-size: 85px;
     font-weight: lighter;
+    width: 1000px;
 }
 
 .mk {
     position: absolute;
-    width: 580px;
+    width: 1000px;
     height: -10px;
     /* height: 100%；でもどうように動作します*/
-    top: -230px;
-    left: 710px;
+    top: -420px;
+    left: 1000px;
     z-index: 30;
     margin-right: 0;
 }
 
 .blue-box {
     position: absolute;
-    width: 1000px;
-    height: 165px;
+    width: 1500px;
+    height: 310px;
     background-color: darkblue;
-    top: 80px;
+    top: 100px;
     left: -10px;
 }
